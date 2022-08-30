@@ -49,7 +49,7 @@ function startGame() {
 
 document.getElementById("myTarget").onclick = function() {
 
-    var end = Date.now()
+    let end = Date.now()
 
     document.getElementById("timeDisplay").innerHTML = "Time: " + (end - start) / 1000 + "s"
     let target = document.getElementById("myTarget")
